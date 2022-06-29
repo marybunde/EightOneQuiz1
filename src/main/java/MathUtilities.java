@@ -1,18 +1,23 @@
  
 
 public class MathUtilities{
-    
+
   /**
    * Add two number together
-   * @param baseValue first number
+   *
+   * @param baseValue  first number
    * @param valueToAdd number
    * @return the sum of the two numbers
    */
-  public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+  public static double addition(double baseValue, double valueToAdd){
+
+  double solution;
+  solution = baseValue + valueToAdd;
+
+    return baseValue + valueToAdd;
   }
 
-  /**
+    /**
    * Add two number together
    * @param baseValue first number
    * @param valueToAdd second number
@@ -47,7 +52,12 @@ public class MathUtilities{
    * @return the result of the number multiply by itself
    */
   public Integer square(Integer number) {
-      return null;
+
+
+      return number * number;
+
+
+
   }
 
 }

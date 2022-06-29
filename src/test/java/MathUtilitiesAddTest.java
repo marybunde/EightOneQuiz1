@@ -21,7 +21,7 @@ public class MathUtilitiesAddTest
         int expected = 15;
 
         //When
-        int actual = utilities.add(7, 8);
+        int actual = utilities.add( 7,  8);
 
         //Then
         assertEquals(expected, actual);

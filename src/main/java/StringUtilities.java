@@ -47,6 +47,7 @@ public class StringUtilities {
      * @return last `word` in sentence
      */
     public String getLastWord(String sentence) {
+
         return null;
     }
 }

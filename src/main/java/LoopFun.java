@@ -9,9 +9,15 @@ public class LoopFun
        * @param number
        * @return the factorial of the number
        */
-      public Integer factorial(Integer number){
+      public Integer factorial(Integer number) {
+
+
           return null;
-      }
+          }
+
+
+
+
 
       /**
        * Given a phrase, get the acronym of that phrase. Acronym is the combination of
@@ -21,7 +27,10 @@ public class LoopFun
        * @return Upper case string of the first letter of each word
        */
       public String acronym(String phrase) {
-          return null;
+
+
+
+                  return null;
       }
 
       /**
