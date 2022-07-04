@@ -11,12 +11,11 @@ public class StringUtilities {
     }
 
     /**
-     * @param baseValue value to be added to
+     * @param baseValue      value to be added to
      * @param valueToBeAdded value to add
      * @return the concatenation of `baseValue` and `valueToBeAdded`
      */
     public String concatenate(String baseValue, String valueToBeAdded) {
-
 
 
         return baseValue.concat(valueToBeAdded);
@@ -41,11 +40,11 @@ public class StringUtilities {
      */
     public Character getMiddleCharacter(String word) {
 
-        return word.charAt(word.length()/2);
+        return word.charAt(word.length() / 2);
     }
 
     /**
-     * @param value value to have character removed from
+     * @param value        value to have character removed from
      * @param charToRemove character to be removed from `value`
      * @return `value` with char of value `charToRemove` removed
      */
@@ -61,6 +60,11 @@ public class StringUtilities {
      */
     public String getLastWord(String sentence) {
 
+//        String[] word = sentence.split(" ");
+//        sentence.substring(sentence.lastIndexOf(" ") + 1);
+//        return word[word.length - 1];
+//
         return sentence.substring(sentence.lastIndexOf(" ")+1);
     }
+
 }
